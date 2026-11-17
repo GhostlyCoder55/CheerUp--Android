@@ -1,0 +1,13 @@
+# Add project specific R8 rules here.
+# AGP will combine all keep rule files in src/main/keepRules to pass to R8
+
+# Keep Google Mobile Ads SDK & UMP SDK entry points and callbacks
+-keep class com.google.android.gms.ads.** { *; }
+-keep class com.google.android.ump.** { *; }
+
+# Keep Google Play Games Services v2 classes
+-keep class com.google.android.gms.games.** { *; }
+
+# Keep WorkManager ReminderWorker & AppWidgetProvider
+-keep class com.example.cheerup.notifications.ReminderWorker { *; }
+-keep class com.example.cheerup.widget.CheerUpAppWidgetProvider { *; }

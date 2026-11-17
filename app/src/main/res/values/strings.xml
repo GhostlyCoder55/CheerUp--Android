@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CheerUp!</string>
+    <string name="widget_description">Get random compliments every 30 minutes!</string>
+</resources>

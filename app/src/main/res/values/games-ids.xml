@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Google Play Games Services v2 Configuration
+        Replace game_services_project_id with the 12-digit Project ID from
+        Google Play Console -> Play Games Services -> Configuration -> Credentials,
+        and replace each leaderboard ID with the alphanumeric ID generated in
+        Google Play Console -> Play Games Services -> Leaderboards.
+        Default values preserve the canonical CheerUp! leaderboard identifiers.
+    -->
+    <string name="game_services_project_id" translatable="false">000000000000</string>
+    <string name="leaderboard_tap_highscore" translatable="false">com.gc.cheerup.tap.highscore</string>
+    <string name="leaderboard_pingpong_highscore" translatable="false">com.gc.cheerup.pingpong.highscore</string>
+    <string name="leaderboard_gravity_highscore" translatable="false">com.gc.cheerup.gravity.highscore</string>
+    <string name="leaderboard_rush_highscore" translatable="false">com.gc.cheerup.rush.highscore</string>
+    <string name="leaderboard_chess_wins" translatable="false">com.gc.cheerup.chess.wins</string>
+</resources>
